@@ -29,11 +29,15 @@ public class Demo4 {
 
         System.out.println(i);
 
+//        int x  = 100;
+//        Integer i1 = new Integer(x);
 
+        int y = i1.intValue();
 
+        Integer i2 = 100;  // 自动装箱,将基本数据类型转换成为对象
+        int z =i2 +100;  // 自动拆箱
 
-
-
+        System.out.println(z);
 
 
     }
